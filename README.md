@@ -81,11 +81,19 @@ cd Jobber
    The app will be available at [http://localhost:3000](http://localhost:3000)
 
 ### API Endpoints
-- **Jobs:** `/jobs`
-- **Companies:** `/companies`
-- **Reviews:** `/reviews`
+- **Jobs:** `/jobs` (GET, POST)
+- **Companies:** `/companies` (GET, POST)
+- **Reviews:** `/reviews` (GET, POST)
 
 All endpoints are accessible via the API Gateway at `http://localhost:8085`.
+
+#### Example API Usage
+- `GET /jobs` — List all jobs
+- `POST /jobs` — Create a new job
+- `GET /companies` — List all companies
+- `POST /companies` — Create a new company
+- `GET /reviews` — List all reviews
+- `POST /reviews` — Create a new review
 
 ## Deployment
 - **Docker Compose:** For local development and testing
